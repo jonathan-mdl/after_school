@@ -11,7 +11,7 @@ El diagrama conceptual muesta las principales entidades con las que trabajara la
 
 ![alt text][concept]
 
-[concept]: /afterschool.png "Diagráma conceptual"
+[concept]: /conceptual_diagram.png "Diagráma conceptual"
 
 El tablero Trello con el backlog y las historias de usuario está disponible en el siguiente link:
 

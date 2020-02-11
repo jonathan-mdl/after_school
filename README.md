@@ -1,7 +1,7 @@
 # README
 
 #AfterSchool
-[link a Heroku](link a heroku)
+[link a Heroku](https://rocky-lowlands-30737.herokuapp.com/home/index)
 
 Proyeto de integracion de contenidos en Desafio Latam G28 full stack
 
@@ -22,6 +22,7 @@ El diseño inicial de la base de datos( no implementado aún) contempla las sigu
 ![alt text][logic]
 
 [logic]: /logic_diagram.png "Diagrama lógico"
+
 
 #pasos para levantar el proyecto 
 

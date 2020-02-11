@@ -23,6 +23,12 @@ El diseño inicial de la base de datos( no implementado aún) contempla las sigu
 
 [logic]: /logic_diagram.png "Diagrama lógico"
 
+La interfaz lo-fi del usuario que sirve como bosquejo de la organización de los componentes incluidos en cada página se pueden visualizar a continuación:
+
+![alt text][lo-fi]
+
+[lo-fi]: /modelo_grafico.jpg "Interfaz lo-fi"
+
 
 #pasos para levantar el proyecto 
 

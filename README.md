@@ -27,7 +27,7 @@ La interfaz lo-fi del usuario que sirve como bosquejo de la organización de los
 
 ![alt text][lo-fi]
 
-[lo-fi]: /modelo_grafico.jpg "Interfaz lo-fi"
+[lo-fi]: /modelo_grafico.png "Interfaz lo-fi"
 
 
 #pasos para levantar el proyecto 

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'user/index'
   resources :posts
   devise_for :users
   get 'after/index'

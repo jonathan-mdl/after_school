@@ -1,7 +1,7 @@
 # README
 
 #AfterSchool
-[link a Heroku](https://rocky-lowlands-30737.herokuapp.com/home/index)
+[link a Heroku](https://rocky-lowlands-30737.herokuapp.com/)
 
 Proyeto de integracion de contenidos en Desafio Latam G28 full stack
 

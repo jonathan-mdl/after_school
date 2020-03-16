@@ -8,14 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_n-IwxqTTFNLGaPmWgxlHmLSWWdMJRzw" type="text/javascript"></script>
+    
+    
+    <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+    <script src='//cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js' type='text/javascript'></script>
   </head>
 
   <body>
     <%= render 'shared/navbar' %>
-    <%= render 'shared/header' %>
-    <%= render 'shared/alerts' %>
     <%= yield %>
-    <%= render 'after/home' %>
     <%= render 'shared/footer' %>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

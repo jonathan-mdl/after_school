@@ -1,3 +1,6 @@
+<%= render 'shared/header' %>
+<%= render 'shared/alerts' %>
+
 <% if current_user %>
 <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete %>
 <% else %>
@@ -8,9 +11,10 @@
 <%= link_to "Posts", posts_path %>
 
 
-
-
-
 <button type="button" class="btn btn-primary btn-lg"><%= link_to "Registrarse", new_user_registration_path %></button>
 <button type="button" class="btn btn-primary btn-lg">Iniciar Sesión</button>
 
+
+<%= render 'after/home' %>
+<%= render 'shared/schedulle'%>
+<%= render 'shared/location'%>

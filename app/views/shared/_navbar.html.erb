@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse pl-" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="#">Pagina Principal</a>
+                <%= link_to "Página Principal", after_index_path, class: 'nav-link'%>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Actividades y Horarios</a>
+                <%= link_to "Mapa del Establecimiento", pages_inmap_path, class: 'nav-link'%>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <%= link_to "Contacto", pages_contact_path, class: 'nav-link'%>
             </li>
         </ul>
     </div>

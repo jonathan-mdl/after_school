@@ -1,5 +1,8 @@
 {
   "name": "after_school",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
 }

@@ -4,16 +4,12 @@
 <% if current_user %>
 <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete %>
 <% else %>
-<%= link_to "Registrarse", new_user_registration_path %>
-<%= link_to "Iniciar Sesión", new_user_session_path %>
+<%= link_to "Registrarse", new_user_registration_path, :class => "btn btn-primary" %>
+<%= link_to "Iniciar Sesión", new_user_session_path, :class => "btn btn-primary" %>
 <% end %>
 
-<%= link_to "Posts", posts_path %>
 
-
-<button type="button" class="btn btn-primary btn-lg"><%= link_to "Registrarse", new_user_registration_path %></button>
-<button type="button" class="btn btn-primary btn-lg">Iniciar Sesión</button>
-
+<!-- <%= link_to "Posts", posts_path %> -->
 
 <%= render 'after/home' %>
 <%= render 'shared/schedulle'%>

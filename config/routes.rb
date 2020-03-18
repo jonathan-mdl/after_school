@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :events
   get 'user/index'
   resources :posts
   devise_for :users

@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_03_02_151605) do
+=======
+ActiveRecord::Schema.define(version: 2020_03_17_232745) do
+>>>>>>> development
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +26,24 @@ ActiveRecord::Schema.define(version: 2020_03_02_151605) do
     t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "events", force: :cascade do |t|
+    t.string "title"
+    t.datetime "start"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "parents", force: :cascade do |t|
+    t.string "name"
+    t.integer "phone"
+    t.string "address"
+    t.string "email"
+    t.bigint "after_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["after_id"], name: "index_parents_on_after_id"
   end
 
   create_table "posts", force: :cascade do |t|
